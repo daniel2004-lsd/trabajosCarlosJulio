@@ -36,4 +36,9 @@ public class Loan {
     public boolean isReturned() {
         return returnDate != null;
     }
+
+    public void setReturned(boolean b) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'setReturned'");
+    }
 }

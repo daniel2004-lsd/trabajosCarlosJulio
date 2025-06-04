@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -12,7 +13,8 @@ public class Main {
             System.out.println("3. Prestar libro");
             System.out.println("4. Devolver libro");
             System.out.println("5. Listar préstamos");
-            System.out.println("6. Salir");
+            System.out.println("6. LIStar libros");
+            System.out.println("7. listar lectores");
             System.out.print("Seleccione una opción: ");
             int option = scanner.nextInt();
             scanner.nextLine();
@@ -62,9 +64,11 @@ public class Main {
                     break;
 
                 case 6:
-                    System.out.println("¡Gracias por usar el sistema!");
-                    scanner.close();
-                    return;
+                    library.listBooks();
+                    break;
+
+                case 7:
+                    library.listReader();
 
                 default:
                     System.out.println("Opción inválida.");

@@ -2,7 +2,7 @@
 
 import java.time.LocalDate;
 
-public class DefaultLibraryFactory implements LibraryFactory {
+public class DefaultLibraryFactory implements LibraryFactory{
     @Override
     public Book createBook(String title, String author, String genre, String isbn) {
         return new Book(title, author, genre, isbn);

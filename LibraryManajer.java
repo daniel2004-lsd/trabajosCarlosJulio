@@ -82,5 +82,15 @@ public class LibraryManajer  implements Library{
         System.out.println("-------------------------------------------------");
     }
     }
+    @Override
+    public void listBooks() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'listBooks'");
+    }
+    @Override
+    public void listReader() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'listReader'");
+    }
     
 }

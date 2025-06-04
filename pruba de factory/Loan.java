@@ -23,4 +23,19 @@ public class Loan {
     public String toString() {
         return "Préstamo: " + book.getTitle() + " a " + reader.getName() + " " + reader.getLastName() + ", Fecha: " + date + ", Devuelto: " + (returned ? "Sí" : "No");
     }
+
+    public void returnBook() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'returnBook'");
+    }
+
+    public String getLoanDate() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getLoanDate'");
+    }
+
+    public String getReturnDate() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getReturnDate'");
+    }
 }

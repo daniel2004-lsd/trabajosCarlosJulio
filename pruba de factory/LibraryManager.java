@@ -59,4 +59,35 @@ public class LibraryManager implements Library {
             System.out.println(loan);
         }
     }
+    @Override
+    public void listBooks(){
+        if(books.isEmpty()){
+            System.out.println("no hay libros rgistrados");
+            return;
+
+        }
+        System.out.println("......Lista de libros regisytrados");
+        for (Book book : books) {
+            System.out.println("titulo : " + book.getTitle());
+            System.out.println("autor : " + book.getAuthor());
+            System.out.println("genero : " + book.getGenre());
+            System.out.println("ISBN :" +   book.getIsbn());
+            System.out.println("........................................................................");
+        }
+    }
+    @Override
+    public void listReader(){
+        if (readers.isEmpty()) {
+            System.out.println("no hay lectores registrados");
+            return;
+        }
+        for (Reader reader : readers) {
+            System.out.println("Lista de lectores");
+            System.out.println("Nombre : " + reader.getName());
+            System.out.println("Apellido: " + reader.getLastName());
+            System.out.println("cedula/carnet : " + reader.getCarnet_cedula());
+            System.out.println("correo: " + reader.getGmail());
+        }
+
+    }
 }

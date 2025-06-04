@@ -5,4 +5,6 @@ public interface Library {
     void loanBook(String isbn, String carnet);
     void returnBook(String isbn);
     void listLoans();
+    void listBooks();
+    void listReader();
 }
