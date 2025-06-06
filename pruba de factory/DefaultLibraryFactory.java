@@ -20,6 +20,6 @@ public class DefaultLibraryFactory implements LibraryFactory{
     
     @Override
     public Library createLibrary() {
-        return new LibraryManager();
+        return new LibraryManager(); // creanos y devolvemos una instancia libraryManager
     }
 }
