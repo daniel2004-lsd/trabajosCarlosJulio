@@ -1,4 +1,6 @@
-    // aca estamos inplementando la interfaz library qy gestinna la logica de la biblioteca
+package ejercicios_carlos_julio.pruba_de_factory;
+
+// aca estamos inplementando la interfaz library qy gestinna la logica de la biblioteca
     import java.util.*;
 
     public class LibraryManager implements Library {

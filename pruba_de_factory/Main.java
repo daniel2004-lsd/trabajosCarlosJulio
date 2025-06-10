@@ -1,3 +1,5 @@
+package ejercicios_carlos_julio.pruba_de_factory;
+
 import java.util.Scanner;
 
 public class Main {

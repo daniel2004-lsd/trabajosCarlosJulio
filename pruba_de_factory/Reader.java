@@ -1,3 +1,5 @@
+package ejercicios_carlos_julio.pruba_de_factory;
+
 public class Reader {
     private String name;
     private String lastName;
